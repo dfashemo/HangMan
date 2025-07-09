@@ -1,7 +1,10 @@
-===================
-=: Core Concepts :=
-===================
+====================: Citations :====================
+- The top-level source code for this project was outlined by the CIS 1200 Course team at the University of Pennsylvania. The rest of the functionality of the game was implemented independently by me.
 
+====================: Running Instructions :====================
+- To play the game, simply run the Game.java file.
+
+====================: Core Concepts :====================
 
   1. Collections - I store all of the possible words for my hangman game in a TreeSet. This feature
   is appropriate because treeSet allows me to add words to the set without having to take into
@@ -24,9 +27,7 @@
   were being correctly updated whenever the game is first started - as well as if the game is
   saved/re-loaded.
 
-=========================
-=: My Implementation :=
-=========================
+====================: My Implementation ====================
 
   - The Body class holds the methods and functionality of the hangman picture that is drawn. Here I
   use a 2D array to draw the hangman stand and body. The full picture is segmented into different

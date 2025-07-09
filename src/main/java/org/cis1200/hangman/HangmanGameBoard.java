@@ -226,9 +226,7 @@ public class HangmanGameBoard extends JPanel {
         }
     }
 
-    /**
-     * Returns the size of the game board.
-     */
+    //returns size of the game board
     @Override
     public Dimension getPreferredSize() {
         return new Dimension(BOARD_WIDTH, BOARD_HEIGHT);
